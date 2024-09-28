@@ -319,10 +319,13 @@
 .slide>ul>li>a {
     color: #fff;
 }
-.slide>ul>li>a>i{
+
+.slide>ul>li>a>i {
     float: right;
-    padding-right: 20px;;
+    padding-right: 20px;
+    ;
 }
+
 .slide>ul>li:hover {
     background-color: #ff6a00;
 }
@@ -341,13 +344,14 @@
     display: none;
 }
 
-.slide li:hover .slide-list{
+.slide li:hover .slide-list {
     display: block;
 }
 
 .slide-list ul {
     width: 100%;
 }
+
 .slide-list ul li {
     width: 230px;
     height: 76px;
@@ -357,15 +361,197 @@
     padding: 0 20px
 }
 
-.slide-list img{
+.slide-list img {
     width: 50px;
     margin-right: 5px;
 }
 
-.slide-list span{
+.slide-list span {
     color: #333;
 }
 
-.slide-list li:hover span{
+.slide-list li:hover span {
     color: #ff6a00;
+}
+
+/* 广告 */
+.ad {
+    width: 100%;
+    height: 170px;
+    padding: 14px 0;
+    background-color: #fff;
+}
+
+.ad-aside {
+    width: 234px;
+    height: 170px;
+    background-color: #5f5750;
+    padding: 3px;
+    box-sizing: border-box;
+    font-size: 12px;
+    float: left;
+}
+
+.ad-aside li {
+    float: left;
+    width: 76px;
+    height: 82px;
+    padding-top: 18px;
+    box-sizing: border-box;
+    opacity: 0.7;
+}
+
+.ad-aside li i {
+    font-size: 24px;
+    margin-bottom: 4px;
+    color: #fff;
+}
+
+.ad-aside li p {
+    color: #fff;
+}
+
+.ad-aside li:hover {
+    opacity: 1;
+}
+
+.ad-img {
+    width: 316px;
+    height: 170px;
+    margin-left: 14.6px;
+    float: left;
+}
+
+.ad-img img {
+    width: 100%;
+}
+
+/* 内容模块 start */
+.content {
+    width: 100%;
+    background-color: #eeeeee;
+    overflow: hidden;
+    padding: 4px 0 12px;
+}
+
+/* 内容模块 end */
+
+/* 手机模块 */
+.title {
+    text-align: left;
+    color: #333;
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 58px;
+}
+
+.phone-box {
+    width: 100%;
+    height: 614px;
+}
+
+.phone-box-left {
+    width: 234px;
+    height: 614px;
+    float: left;
+    transition: all 0.1s linear;
+
+}
+
+.phone-box-left:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+.phone-box-right {
+    width: 992px;
+    height: 614px;
+    float: left;
+}
+
+.item {
+    width: 234px;
+    height: 300px;
+    margin: 0 0 14px 14px;
+    background-color: #fff;
+    padding: 20px 0;
+    box-sizing: border-box;
+    float: left;
+    transition: all 0.1s linear;
+}
+
+.item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.item-img {
+    width: 160px;
+    margin-bottom: 19px;
+}
+
+.item-name {
+    width: 214px;
+    height: 21px;
+    color: #333;
+    line-height: 21px;
+    margin: 0 auto 2px;
+}
+
+.item-desc {
+    width: 214px;
+    height: 18px;
+    color: #b0b0b0;
+    font-size: 12px;
+    line-height: 18px;
+    margin: 0 auto 10px;
+}
+
+.item-price {
+    color: #ff6a00;
+    font-size: 14px;
+}
+
+.big-img {
+    width: 100%;
+    height: 120px;
+    margin: 20px 0;
+}
+
+/* 家电模块 */
+.elc-box {
+    width: 100%;
+    height: 614px;
+}
+
+.elc-item {
+    padding: 0;
+    margin-left: 0;
+}
+
+.item-price>del {
+    color: #888888;
+    margin-left: 5px;
+}
+
+.item-last {
+    width: 234px;
+    height: 300px;
+    float: left;
+    margin-left: 14px;
+}
+
+.item-last div {
+    height: 143px;
+    background-color: #fff;
+    transition: all 0.1s linear;
+
+}
+
+.item-last>div:first-child {
+    margin-bottom: 14px;
+}
+
+.item-last>div:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
 }
