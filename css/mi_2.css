@@ -1,5 +1,5 @@
 /* 顶部广告 */
-.header{
+.header {
     width: 100%;
     height: 120px;
     overflow: hidden;
@@ -14,7 +14,7 @@
             3. 表格
 */
 
-.header img{
+.header img {
     height: 120px;
     position: absolute;
     left: 50%;
@@ -22,7 +22,7 @@
 }
 
 /* 黑色导航 */
-.black-nav{
+.black-nav {
     width: 100%;
     height: 40px;
     line-height: 40px;
@@ -30,36 +30,38 @@
     font-size: 12px;
 }
 
-.black-nav .wrap{
+.wrap {
     width: 1226px;
     margin: 0 auto;
 }
 
-.black-nav .wrap .black-nav-left{
+.black-nav .wrap .black-nav-left {
     float: left;
 }
 
-.black-nav .wrap .black-nav-left li{
+.black-nav .wrap .black-nav-left li {
     float: left;
     position: relative;
 }
-.black-nav a{
+
+.black-nav a {
     color: #b0b0b0;
 }
-.black-nav span{
+
+.black-nav span {
     color: #888888;
     margin: 0 3.6px;
 }
 
-.black-nav .wrap .black-nav-right{
+.black-nav .wrap .black-nav-right {
     float: right;
 }
 
-.black-nav .wrap .black-nav-right li{
+.black-nav .wrap .black-nav-right li {
     float: left;
 }
 
-.download{
+.download {
     width: 124px;
     height: 0;
     background-color: #fff;
@@ -70,16 +72,17 @@
     margin-left: -62px;
     overflow: hidden;
 }
-.download img{
+
+.download img {
     width: 90px;
     margin: 18px auto 0;
 }
 
-.black-nav-left li:hover> .download{
+.black-nav-left li:hover>.download {
     height: 148px;
 }
 
-.stri{
+.stri {
     width: 0;
     height: 0;
     border-bottom: 8px solid #fff;
@@ -91,18 +94,20 @@
     margin-left: -8px;
     display: none;
 
-    
+
 }
-.black-nav-left li:hover> .stri{
+
+.black-nav-left li:hover>.stri {
     display: block;
 }
+
 /* .download p{
     color: #333;
     font-size: 12px;
     line-height: 20px;
 } */
 
-.cart{
+.cart {
     width: 120px;
     height: 40px;
     background-color: #424242;
@@ -110,19 +115,20 @@
     position: relative;
 }
 
-.cart:hover{
+.cart:hover {
     background: #fff;
 }
 
-.cart:hover> a{
+.cart:hover>a {
     color: coral;
 }
 
-.cart i{
-    font-style: normal;    
+.cart i {
+    font-style: normal;
+    margin-left: 4px;
 }
 
-.cart-list{
+.cart-list {
     width: 316px;
     height: 0px;
     background-color: #fff;
@@ -135,6 +141,102 @@
     line-height: 100px;
 }
 
-.cart:hover>.cart-list{
+.cart:hover>.cart-list {
     height: 100px;
+}
+
+/* 白色导航 */
+
+.white-nav {
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+}
+
+.logo {
+    width: 55px;
+    height: 55px;
+    background-color: #ff6a00;
+    float: left;
+    margin-top: 22px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 25%;
+}
+
+.logo>img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    transition: all 0.2;
+}
+
+
+.mi-home {
+    left: -55px;
+}
+
+.mi-logo {
+    left: 0px;
+}
+
+.logo:hover>.mi-home {
+    left: 0px;
+}
+
+.logo:hover>.mi-logo {
+    left: 55px;
+}
+
+.nav-bar{
+    width: 875px;
+    height: 100px;
+    line-height: 100px;
+    float: left;
+}
+
+.search{
+    width: 296px;
+    height: 100px;
+    float: right;
+}
+
+.nav-bar li{
+    float: left;
+}
+
+.nav-bar li a{
+    color: #3f3f3f;
+    padding: 0 13px;
+}
+.nav-bar li a:hover{
+    color: #ff6a00;
+}
+
+.search input{
+    width: 244px;
+    height: 50px;
+    float: left;
+    /* outline: none; */
+    border:1px solid #888888;
+    border-right: 0;
+    box-sizing: border-box;
+    margin-top: 25px;
+    padding: 0 10px;
+    outline: none;
+}
+
+.search button{
+    width: 52px;
+    height: 50px;
+    float: right;
+    border:1px solid #888888;
+    box-sizing: border-box;
+    margin-top: 25px;
+    padding: 0 10px;
+}
+.search button:hover{
+    background-color:  #ff6a00;
+    color: #ffffff;
 }
