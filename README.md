@@ -1,2 +1,20 @@
 # 小米商城
-[【HTML+CSS+实战案例-网页设计】完整的网页布局，一张完整的网页结构，网页设计与制作，网页制作，网页设计—HTML+CSS+实战案例_网页设计基础到实战](https://www.ilibili.com/video/BV1oa4y1k7eK/?p=50&share_source=copy_web&vd_source=54da364394d3171749b2e716a4ee75dd)
+> [【HTML+CSS+实战案例-网页设计】完整的网页布局，一张完整的网页结构，网页设计与制作，网页制作，网页设计—HTML+CSS+实战案例_网页设计基础到实战](https://www.ilibili.com/video/BV1oa4y1k7eK/?p=50&share_source=copy_web&vd_source=54da364394d3171749b2e716a4ee75dd)
+
+## 项目要点总结:
+- 项目要点技术
+- 项目布局选择
+### 项目要点技术.
+- 所用标签: `div、ul+li、img、i、p、span`
+- CSS样式
+  - 选择器优先级
+  - 浮动与定位
+  - 滑动门
+  - 过渡与动画
+  - 盒子大小的计算
+  - 字体图标
+### 项目布局选择
+项目采用`div+css`布局，为了更有益于SEO
+
+## 遗留问题
+- “视频”不能和“手机”“家电”对齐，总是“手机”始终对齐到“家电模块”的第二行的最后一个`div`的左边缘。

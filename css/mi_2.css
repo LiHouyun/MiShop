@@ -71,6 +71,7 @@
     left: 50%;
     margin-left: -62px;
     overflow: hidden;
+    z-index: 10;
 }
 
 .download img {
@@ -93,19 +94,11 @@
     left: 50%;
     margin-left: -8px;
     display: none;
-
-
 }
 
 .black-nav-left li:hover>.stri {
     display: block;
 }
-
-/* .download p{
-    color: #333;
-    font-size: 12px;
-    line-height: 20px;
-} */
 
 .cart {
     width: 120px;
@@ -113,6 +106,7 @@
     background-color: #424242;
     margin-left: 25px;
     position: relative;
+    z-index: 10;
 }
 
 .cart:hover {
@@ -254,6 +248,7 @@
     left: 0;
     top: 100px;
     display: none;
+    z-index: 10;
 }
 
 .nav-bar-list li {
